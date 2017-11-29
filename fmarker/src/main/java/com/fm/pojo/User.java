@@ -5,13 +5,9 @@ import java.io.Serializable;
 @SuppressWarnings("serial")
 public class User implements Serializable {
 	
-	public User(){}
 	
-	public User(String uName, String uPass) {
-		super();
-		this.uName = uName;
-		this.uPass = uPass;
-	}
+	
+
 
 	public User(long sid, String uName, String uPass) {
 		super();
